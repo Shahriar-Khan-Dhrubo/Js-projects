@@ -1,0 +1,50 @@
+/* .slideshow_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+}
+.sildeshow_elements{
+
+}
+.slideshow_element{
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%) scale(0);
+    transition: transform 1s;
+}
+.slideshow_element i,h2{
+    font-size: 10rem;
+    color: coral;
+}
+.slideshow_element.current{
+    transform: translate(-50%,-50%) scale(1);
+    transition: transform 1s;
+} */
+
+/* practice again */
+.slideshow_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+}
+.slideshow_elements{
+    position: relative;
+}
+.slideshow_element{
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%) scale(0);
+    transition: transform 1s;
+}
+.slideshow_element i,h2{
+    font-size: 10rem;
+    color: coral;
+}
+.slideshow_element.current{
+    transform: translate(-50%,-50%) scale(1);
+    transition: transform 1s;
+}
