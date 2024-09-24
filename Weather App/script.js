@@ -1,9 +1,9 @@
-const url = 'https://open-weather13.p.rapidapi.com/city/dhaka/BD';
+const url = 'https://weather-api-by-any-city.p.rapidapi.com/weather/Rajshahi';
 const options = {
 	method: 'GET',
 	headers: {
 		'x-rapidapi-key': '177d5f0faamshf05524140413284p176754jsnb5598a3351b9',
-		'x-rapidapi-host': 'open-weather13.p.rapidapi.com'
+		'x-rapidapi-host': 'weather-api-by-any-city.p.rapidapi.com'
 	}
 };
 
@@ -15,6 +15,6 @@ async function getWeather() {
     } catch (error) {
         console.error(error);
     }
-}
+};
 
 getWeather();
